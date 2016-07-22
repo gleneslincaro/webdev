@@ -1,0 +1,241 @@
+#interview-report-wrap{
+	margin:10px -10px;
+}
+#interview-report {
+	-webkit-padding-start: 0px;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	width: 100%;
+	display: table;
+	border-spacing: 10px 0;
+}
+#interview-col1 {
+	width: 25%;
+	display:table-cell;
+}
+#interview-col2 {
+	width: 25%;
+	display:table-cell;
+	  border: 1px solid #33BEDB;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#interview-col3 {
+	width: 25%;
+	display:table-cell;
+}
+#interview-col4 {
+	width: 25%;
+	display:table-cell;
+		border: 1px solid #0DBF83;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+
+}
+.no-fetch-data {
+    vertical-align:middle;
+    margin-top: 15%;
+}
+.label-black {
+    font-size: 1em;
+	font-weight:bold;
+    color:#555555;
+}
+.label-orange {
+    color:#EC6243;
+	font-weight:bold;
+    font-size: 1.3em;
+}
+/******************************
+#interview-col1 style
+*******************************/
+/*for column 1*/
+#col1-header {
+    width: 100%;
+    font-size:2.0em;
+    font-weight: bold;
+    color:#fff;
+	padding:10px 0;
+	text-align:center;
+    background-color: #FE9900;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+#inflow-data-col1 {
+    border:1px solid #FE9900;
+	height:210px;
+	padding:2%;
+	box-sizing:border-box;
+}
+.inflow-tbl {
+    width: 100%;
+    color:#575556;
+    font-size:1.5em;
+    
+}
+#inflow-tbl1 {
+    height: 200px;
+}
+.inflow-tbl tr {
+    background-color: #FEF3F7;
+}
+
+.inflow-tbl tr th,td {
+    border-bottom: 3px solid #fff;
+    padding:5px 5%;
+    
+}
+.inflow-tbl tr td p {
+    text-align: right;
+}
+
+.to-right {
+    float: right;
+}
+
+/******************************
+#interview-col2 style
+*******************************/
+/*for column 2*/
+#col2-header {
+    width: 100%;
+    font-size:2.0em;
+    font-weight: bold;
+    color:#fff;
+	padding:10px 0;
+	text-align:center;
+    background-color: #33BEDB;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#inflow-data-col2 {
+  height: 190px;
+  padding: 0 2%;
+  margin: 2% 0;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+#inflow-tbl2 {
+    height: 203px;
+    font-size: 1.0em;
+}
+#inflow-tbl2 td {
+    padding: 3%;
+}
+
+/******************************
+#interview-col3 style
+*******************************/
+/* for column 3*/
+#col3-header {
+    width: 100%;
+    font-size:2.0em;
+    font-weight: bold;
+    color:#fff;
+	padding:10px 0;
+	text-align:center;
+    background-color: #FF305A;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#inflow-data-col3 {
+    border:1px solid #FF305A;
+    height:210px;
+	padding:2%;
+	box-sizing:border-box;
+}
+#interview-col3 table th{
+	color:#EC6243;
+	text-align:center;
+}
+/******************************
+#interview-col4 style
+*******************************/
+/* for column 4*/
+#col4-header {
+    width: 100%;
+    font-size:2.0em;
+    font-weight: bold;
+    color:#fff;
+	padding:10px 0;
+	text-align:center;
+    background-color: #0DBF83;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#inflow-data-col4 {
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height: 190px;
+	padding: 0 2%;
+	margin: 2% 0;
+	box-sizing:border-box;
+}
+#interview-col4 dl{
+	display:table;
+	border-spacing: 2px 0;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	margin-bottom:2%;
+}
+#interview-col4 dl p{
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+#interview-col4 dt{
+	width:10%;
+	display:table-cell;
+	color:#fff;
+	padding:2%;
+	line-height:1;
+	vertical-align: middle;
+	text-align:center;
+}
+#interview-col4 dt.interview-1{
+	background-color:#32C0D6;
+}
+#interview-col4 dt.interview-2{
+	background-color:#FE9B00;
+}
+#interview-col4 dt.interview-3{
+	background-color:#A2A2A2;
+}
+#interview-col4 dd{
+	width:90%;
+	display:table-cell;
+	background-color:#FEF3F7;
+	padding:2%;
+	box-sizing:border-box;
+	-webkit-margin-start: 0px;
+}
+#interview-col4 dd a{
+	color:#2FC0DA;
+	font-weight:bold;
+}

@@ -1,0 +1,118 @@
+.header .breadcrumb {
+    background: #fb6e52 none repeat scroll 0 0;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+}
+.page_wrap {
+    border-top: 2px solid #fb6e52;
+    font-size: 1.4rem;
+    min-width: 1220px;
+    padding: 0;
+    width: 100%;
+}
+.ttl_style_1{
+    border-bottom: 2px solid #fb6e52;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 auto 20px;
+    padding: 0 0 10px;
+}
+dl.nav_onayami dt a {
+    color: #F65800;
+}
+footer .footer_inner dl dd ul {
+    padding: 10px 0 0;
+    margin-bottom: 20px! important;
+}
+footer .footer_inner dl + dl {
+    border-top: dashed 1px #fff;
+    padding-top: 20px;
+}
+.nav_onayami ul {
+    line-height:30px;
+}
+.nav_onayami ul li + li:before {
+    content: none! important;
+}
+.nav_onayami ul li {
+    padding-right: 15px;s
+}
+.nav_onayami ul li a {
+    color: #fff;
+    text-decoration: none;
+    border-right: solid 1px #fff;
+    padding-right: 15px;
+}
+.nav_onayami ul li:last-child a {
+    border: none;
+}
+
+.header_onayami > .container {
+    padding: 10px 0 11px;
+}
+.header_onayami .right_column {
+    float: right;
+    text-align: right;
+}
+.header_onayami .right_column li .btn_style {
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+}
+.header_onayami .btn_wrap .btn_style.btn_green {
+    background: #3fd8b7;
+}
+.header_onayami .btn_wrap .btn_style.btn_magenta {
+    background: #fa216f;
+}
+.header_onayami .btn_wrap .btn_style {
+    font-size: 1.5rem;
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.header_onayami .btn_wrap li {
+    margin:0 7px! important;
+}
+.header_onayami .right_column .header_user_menu, .header_onayami .right_column .header_account_menu {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 0 0 10px;
+    line-height: 1.5;
+}
+.header_onayami .right_column .header_account_menu a{
+    font-weight:normal;
+}
+.header_onayami .right_column .header_user_menu {
+    color: #372e2a;
+}
+.header_onayami .right_column .header_user_menu li a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.header_onayami .right_column .header_user_menu li {
+    display: inline-block;
+}
+.header_onayami .right_column .header_banner_area, .header_onayami .right_column .header_site_ability {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    line-height: 1.5;
+}
+.header_onayami .right_column .header_site_ability li span {
+    color: #fb6e52;
+    font-weight: bold;
+}
+.header_onayami .right_column .header_user_menu li + li:before {
+    content: "|";
+    margin: 0 10px;
+    position: relative;
+    top: -2px;
+}

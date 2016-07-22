@@ -1,0 +1,64 @@
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+#interviewer {
+    width:100%;
+    padding:1%;
+    border: 1px solid #F86079;
+    margin-bottom:2%;
+}
+.interviewer_info {
+    position:relative;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-bottom:3%;
+    width:70%;
+
+}
+.inner-bubble {
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-repeat-x: no-repeat;
+    word-wrap: break-word;
+}
+.interviewer_photo {
+    display: inline-block;
+}
+.interviewer_photo img {
+    width:100%;
+}
+#caption_banner {
+    color:#fff;
+    background:#F86079;
+    padding:2%;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.labels {
+    background: none repeat scroll 0 0 #f86079;
+    color: #fff;
+    padding: 2px 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.interviewer-data {
+    font-size:1.5em;
+}
+.label-pink {
+    padding-top:10px;
+    color:#F66079;
+    font-size:1.5em;
+}

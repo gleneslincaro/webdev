@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------section--campaign----------------------------------*/
+
+/*---お支払い総額---*/
+.section--campaign ul li:first-child {
+	margin-top: 0;
+}
+.section--campaign ul li {
+	margin-top: 1rem;
+	display: block;
+}
+.section--campaign ul li .banner {
+  width: 100%;
+  display: block;
+}
+.section--campaign .campaign_total_payment strong{
+	font-weight:bold;
+}
+.section--campaign .campaign_total_payment dl dt{
+	font-size:1.5rem;
+	padding:2% 0 2%;
+	background-color:#ff305a;
+	color:#fff;
+}
+.section--campaign .campaign_total_payment dl dt .total_amount{
+	font-weight:bold;
+	font-size:2rem;
+	float:right;
+	margin-right:4%;
+}
+.section--campaign .campaign_total_payment dl dt strong{
+	color:#fff100;
+	font-size:2rem;
+	padding-left:4%;
+	padding-right:2%;
+}
+.section--campaign .campaign_total_payment dl dd{
+	background-color:#fc92b6;
+	padding:2%;
+}
+.section--campaign .campaign_total_payment dl dd span{
+	font-size:2rem;
+	color:#ff305a;
+	font-weight:bold;
+}
+.section--campaign .campaign_total_payment dl dd ul li{
+	padding:2%;
+	background-color:#fff;
+	border-radius:10px;
+	font-size:1.5rem;
+}
+.section--campaign .campaign_total_payment dl dd ul li span img{
+	vertical-align:middle;
+	width:5%;
+	margin-right:2%;
+}
+
+/*---超倍々キャンペーン---*/
+.section--campaign .step_up_campaign .step_up_mission {
+	margin: 10px 10px;
+}
+.section--campaign .step_up_campaign .step_up_mission dl ol {
+	padding: 0 8%;
+}
+.section--campaign .step_up_campaign .step_up_mission dl {
+	display: block;
+	width: 100%;
+}
+.section--campaign .step_up_campaign .step_up_mission dt {
+	font-weight: bold;
+	display: block !important;
+	margin: 10px auto 0 auto;
+	padding: 5px 3%;
+	background: #FCE8E8;
+	text-shadow: none;
+	border-radius: 5px 5px 0 0;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.section--campaign .step_up_campaign .step_up_mission dd {
+	display: block !important;
+	margin: 0 auto 20px auto;
+	padding: 5px 3% 10px;
+	font-size: 1rem%;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+.section--campaign .step_up_campaign .step_up_mission dd em {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1rem;
+	padding: 10px 0;
+	line-height: 150%;
+}
+.section--campaign .step_up_campaign .step_up_mission p.back_btn a {
+	display: block;
+	padding: 0 1%;
+}
+.section--campaign .step_up_campaign .mission_wrap .green{
+	color:#0eb4b6;
+}
+.section--campaign .step_up_campaign .mission_wrap .red{
+	color:#FF255d !important;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title h2 span{
+	font-size:1rem !important;
+}
+
+/*---Device sideways---*/
+ @media screen and (min-width: 400px) {
+.section--campaign .step_up_campaign .mission_wrap {
+	border: solid 5px #0eb4b6;
+	border-radius: 5px;
+	margin-bottom: 2%;
+	background-color: #fff;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title {
+	position: relative;
+	background: #0eb4b6;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title h2 {
+	width:240px;
+	margin: 0;
+	padding: 2% 0 2% 1%;
+	color: #FFF;
+	font-size: 1rem;
+	text-align:center;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #333;
+}
+.section--campaign .step_up_campaign .mission_wrap p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+.section--campaign .step_up_campaign .mission_wrap .step_up_note{
+	font-size:1rem;
+	width:90%;
+	margin:0 auto;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title p {
+	padding: 1% 2% 1% 2%;
+	line-height: 2;
+	background-color: #FFF;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 5px;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title p span {
+	font-weight: bold;
+}
+.section--campaign .step_up_campaign .mission_wrap .box_wrap {
+	padding: 2%;
+	overflow: hidden;
+}
+.section--campaign .step_up_campaign .mission_wrap .left_box {
+	width: 90%;
+	margin:0 auto;
+	font-size: 16px;
+	line-height: 1.8;
+}
+.section--campaign .step_up_campaign .mission_wrap .left_box span {
+	font-size: 1.2rem;
+}
+.section--campaign .step_up_campaign .complete .box_wrap .right_box {
+	padding-top:4%;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box {
+	width: 80%;
+	color: #FFF;
+	margin:10px auto;
+	font-weight: bold;
+	text-align: center;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box p {
+	font-size: 1rem;
+	padding: 4% 2%;
+	background-color: #0eb4b6;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px 0px #888;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box p a {
+	color: #FFF;
+	display:block;
+}
+}
+/*---Device Portrait---*/
+@media screen and (max-width: 400px) {
+.section--campaign .step_up_campaign .mission_wrap a{
+	display:block;
+}
+.section--campaign .step_up_campaign .mission_wrap p {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+.section--campaign .step_up_campaign .mission_wrap {
+	border: solid 5px #0eb4b6;
+	border-radius: 5px;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+	background-color: #fff;
+}
+.section--campaign .step_up_campaign .mission_wrap .step_up_note{
+	font-size:1rem;
+	margin:0 auto;
+}
+
+.section--campaign .step_up_campaign .mission_wrap .campaign_title {
+	background: #0eb4b6;
+	padding-bottom: 2%;
+	text-align: center;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title h2 {
+	margin: 0;
+	font-size: 1.2rem;
+	padding: 2% 0 2% 1%;
+	color: #FFF;
+	background: #0eb4b6;
+	text-shadow: 1px 1px 1px #333;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title p {
+	font-size: 1rem;
+	padding: 2%;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+.section--campaign .step_up_campaign .mission_wrap .campaign_title p span {
+	font-weight: bold;
+}
+.section--campaign .step_up_campaign .mission_wrap .box_wrap {
+	padding: 3%;
+	margin: 0 0 0 2%;
+}
+.section--campaign .step_up_campaign .complete .box_wrap .left_box {
+	text-align:center;
+}
+.section--campaign .step_up_campaign .mission_wrap .left_box {
+	font-size: 1rem;
+	line-height: 1.8;
+	margin: 0 0 4% 2%;
+}
+.section--campaign .step_up_campaign .mission_wrap .left_box span {
+	font-size: 1.2rem;
+	font-weight:bold;
+}
+.section--campaign .step_up_campaign .complete .box_wrap .right_box {
+	width: 100%;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box {
+	width: 80%;
+	margin: 0 auto;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box {
+	width: 100%;
+	margin: 0 auto;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box p {
+	font-size : 1rem;
+	text-align: center;
+	padding: 3% 0;
+	background-color: #0eb4b6;
+	border-radius: 5px;
+	box-shadow: 0px 2px 0px 0px #888;
+}
+.section--campaign .step_up_campaign .mission_wrap .right_box p a {
+	color: #FFF;
+	display:block;
+}
+}

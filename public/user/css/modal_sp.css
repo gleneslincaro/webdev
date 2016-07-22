@@ -1,0 +1,228 @@
+body {
+	 -webkit-text-size-adjust: 100%;
+}
+
+.modal-bk {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.60;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align:center;
+}
+
+.modal .modal-body {
+	position: absolute;
+	z-index: 1000;
+	padding:0;
+	background: #fed1da;
+	width: 85%;
+	height: 50%;
+	border: 1px solid #ff4795;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.modal .modal-content-wrap{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.modal .modal-content {
+	width: 95%;
+	height: 95%;
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right:0;
+	margin:auto;
+}
+.modal .wrapper-logo {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.modal .modal-content img {
+	max-width: 100%;
+	height: 100%;
+	margin: 8% 0 5%;
+	text-align: center;
+}
+
+@media screen and (max-height: 213px) {
+	.modal-body {
+		height: 175px;
+	}
+	.text {
+		font-size: 10px;
+	}
+	.choose p .enter , .choose p .leave{
+		padding: 0;
+	}
+}
+
+@media screen and (max-height: 320px) {
+	.modal .modal-body {
+		height: 290px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+
+@media screen and (min-width: 533px) {
+	.modal .modal-body {
+		height: 290px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+@media screen and (min-width: 667px) {
+	.modal .modal-body {
+		height: 276px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.modal .modal-body {
+		height: 306px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+@media screen and (min-width: 753px) {
+	.modal .modal-body {
+		height: 286px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+@media screen and (min-width: 753px) {
+	.modal .modal-body {
+		height: 500px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.modal .modal-body {
+		height: 316px;
+	}
+	 .header{
+		z-index:1;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.modal-content img {
+		margin: 6% 0 5% 6%;
+	}
+	.text {
+		font-size: 20px;
+	}
+	.choose p a {
+		width: 80px;
+		font-size: 25px;
+	}
+	.modal-content .choose p {
+		width: 25%;
+	}
+	.modal .modal-body {
+		height: 500px;
+	}
+}
+
+
+@media screen and (min-width: 1280px) {
+	.modal-content img {
+		margin: 6% 0 5% 13%;
+	}
+	.modal-body {
+		height: 50px;
+	}
+}
+
+@media screen and (min-width: 2560px) {
+	.modal-content img {
+		margin: 6% 0 5% 32%;
+	}
+	.text {
+		font-size: 45px;
+	}
+	.choose p a {
+		width: 80px;
+		font-size: 55px;
+	}
+	.modal-content .choose p {
+		width: 25%;
+	}
+	.modal-body {
+		height: 630px;
+	}
+}
+
+
+.modal .text {
+	text-align: center;
+	font-weight: bold;
+	color: #656565;
+	width: 90%;
+	line-height:2;
+	margin: 0 auto 10px;
+	font-size: 120%;
+}
+.choose {
+	width: 100%;
+	text-align: center;
+}
+.choose p {
+	display: inline-block;
+	width: 45%;
+}
+.choose p a {
+	background: #ff4594;
+	color: #ffffff;
+	display: block;
+	padding: 5% 0;
+	width: 100%;
+	font-size: 200%;
+	font-weight: bold;
+}
+.choose p a:hover {
+	background: #91355f;
+}
+.choose span {
+	display: block;
+	font-size: 49%;
+	font-weight: normal;
+}

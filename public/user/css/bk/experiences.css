@@ -1,0 +1,245 @@
+
+/*----------------------------------------------*/
+/* experiences
+/*----------------------------------------------*/
+.section .box_inner{
+	padding: 1% 0;
+}
+.experiences_list {
+    margin: 0 0 1% 0;
+	border:1px solid #cccccc;
+	border-radius: 3px;
+	background-color:#ffffff;
+}
+.experiences_list.sentence{
+	padding: 5%;
+}
+.experiences_list.sentence p{
+    margin: 0 0 5% 0;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+.experiences_list.sentence.detail{
+	margin:0;
+}
+.form_preview,
+.form_preview.list{
+	padding: 2% 2% 5% 2%;
+	display: inline-block;
+    vertical-align: middle;
+}
+.form_preview{
+	width:100%;
+}
+.form_preview.list{
+	width:96%;
+}
+.information_list{
+	display:inline-block;
+	font-size:120%;
+    text-align: right;
+}
+.form_preview p{
+	line-height: 1.8;
+	padding: 10px;
+}
+.new_experiences{
+	border:1px solid #FF0033;
+	background-color:#FF0033;
+	margin:0 5px 0 0;
+	padding:0 5px;
+	border-radius:3px;
+	color:#ffffff;
+	float: left;
+}
+.form_preview li{
+	overflow:hidden;
+    padding: 2% 0 0 3%;
+}
+.area_age{
+	float:right;
+	margin:0 10px 0 0;
+}
+.experiences_wrap{
+	width:100%;
+	overflow: hidden;
+}
+.experiences_arrow.left{
+	float:left;
+	padding: 3% 5% 0 0;
+}
+.experiences_arrow.right{
+	float:right;
+	padding: 3% 5% 0 0;
+}
+.experiences_arrow{
+	display: block;
+    overflow: hidden;
+    margin: 0 auto 2% auto;
+    background-color: #ffffff;
+}
+.section--experiences .pagebody_inner,
+.section--experiences_detail .pagebody_inner,
+.section--posting_form .pagebody_inner{
+    margin: 16.5% 0 0 0;
+	background:url(../../user/pc/image/bg_yellow_star.png)
+}
+.link_detail{
+	display:block;
+}
+.posting_form.ttl,
+.posting_form.content{
+	width:95%;
+	margin:0 0 2% 0;
+}
+.posting_form.content{
+	height: 20rem;
+	height:200px;
+	overflow:scroll;
+	margin:0 0 5% 0;
+}
+.management{
+	padding:0;
+	border:none;
+    margin: 0 0 2% 0;
+}
+.management img{
+	width:100%;
+}
+.management p{
+	display: block;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+}
+/*----------------------------------------------*/
+/* ttl h
+/*----------------------------------------------*/
+.experiences_ttl{
+	display: block;
+	width: 40%;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+}
+.experiences_list.ttl {
+    padding: 3% 0 2% 5%;
+}
+.experiences_list.ttl li{
+	width: 98%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    border-bottom: 1px solid #ffffff;
+}
+.experiences_h{
+	font-weight:bold;
+	padding:1% 0 0 0 ;
+}
+.experiences_post_h {
+    margin: 1% 0 1% 3%;
+}
+/*----------------------------------------------*/
+/* btn
+/*----------------------------------------------*/
+.posting{
+	width:50%;
+}
+.experiences_send_btn{
+    width: 40%;
+}
+.posting,
+.experiences_send_btn{
+	display:inline-block;
+	color:#0dbf84;
+	font-weight:bold !important;
+	border-radius: 5px;
+    border: solid 3px #0dbf84 !important;
+    min-width: 80px;
+    padding: 0.8rem;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: solid 1px #0dbf84;
+	margin: 2%;
+}
+.section--experiences .more_btn {
+	display:inline-block;
+	border-radius: 5px;
+    border: solid 3px #999999;
+    width: 40%;
+    min-width: 80px;
+    padding: 0.8rem;
+    margin: 10px auto 15px;
+    vertical-align: middle;
+    background-color: #ffffff;
+	margin: 2%;
+}
+.section--posting_form .cancel_btn{
+	width: 40%;
+    padding: 0.8rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    color: #555;
+	font-weight:bold;
+    border: solid 3px #555;
+	vertical-align: middle;
+    cursor: pointer;
+}
+#lean_overlay{
+  position: fixed; 
+  z-index:100; 
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none;
+}
+/*----------------------------------------------*/
+/* web_icon
+/*----------------------------------------------*/
+.section--posting_form .fa.fa-gift{
+	color:#ff0d59;
+	padding:0 1%;
+}
+.section--experiences_detail .fa.fa-chevron-left,
+.section--experiences_detail .fa.fa-chevron-right{
+	font-size: 120%;
+    color: #999999;
+    opacity: 0.4;
+    padding: 0 20px;
+}
+.section--experiences .fa.fa-angle-right{
+	color:#cccccc;
+}
+/*----------------------------------------------*/
+/* position
+/*----------------------------------------------*/
+.position_center{
+	text-align:center;
+}
+/*----------------------------------------------*/
+/* modal
+/*----------------------------------------------*/
+#experiences_send_modal,
+#experiences_send_modal_2,
+#experiences_send_modal_3{
+	display:none;
+	text-align:center;
+	width:95%;
+	padding:5%;
+	border:1px solid #cccccc;
+	border-radius:5px;
+	background-color:#ffffff;
+}
+#experiences_send_modal input{
+	width:40%;
+	margin:2%;
+}
+.finish_comment{
+	margin:0 0 5% 0;
+}

@@ -1,0 +1,190 @@
+
+@charset "utf-8";
+article, aside, canvas, details, figcaption, figure, header, footer, hgroup, menu, nav, section, summary {
+    display: block;
+}
+html {
+    font-size: 62.5%;
+}
+@media screen and (min-width: 480px) {
+html {
+}
+}
+@media screen and (min-width: 640px) {
+html {
+}
+}
+body, div, ul, li, menu, dir, h1, p {
+    list-style-type: none;
+}
+body {
+    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+table, caption, tbody, tfoot, thead, tr, th, td {
+}
+img {
+}
+a {
+}
+em {
+    font-style: normal;
+}
+ol, ul, li {
+}
+dl, dt, dd {
+}
+span {
+}
+p {
+}
+ol {
+}
+div {
+}
+#main {
+    margin: 0 auto;
+    width: 100%;
+}
+@media screen and (min-width: 280px) {
+html, #main, .contents {
+    margin: 0 auto;
+    padding: 0;
+    width: 280px;
+}
+}
+@media screen and (min-width: 320px) {
+html, #main, .contents {
+    margin: 0 auto;
+    padding: 0;
+    width: 320px;
+}
+}
+@media screen and (min-width: 360px) {
+html, #main, .contents {
+    margin: 0 auto;
+    padding: 0;
+    width: 360px;
+}
+}
+@media screen and (min-width: 480px) {
+html, #main, .contents {
+    font-size: 87.5%;
+    margin: 0 auto;
+    padding: 0;
+    width: 480px;
+}
+}
+@media screen and (min-width: 640px) {
+html, #main, .contents {
+    font-size: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 640px;
+}
+}
+.contents {
+    clear: both;
+    margin: 0 auto;
+    padding: 0;
+}
+article {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+}
+#scroll_top {
+    border-radius: 4px;
+    bottom: 10px;
+    display: none;
+    height: 30px;
+    position: fixed;
+    right: 10px;
+    width: 30px;
+    z-index: 1;
+}
+#scroll_top img {
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+}
+C .btn {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #999;
+    color: #fff;
+    display: block;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #333;
+    width: 96%;
+}
+.red {
+    background: none repeat scroll 0 0 #c40003;
+}
+.txt_yellow {
+    color: #fffd00;
+}
+.strong {
+    font-weight: bold;
+}
+.top {
+}
+.top .top_wrap {
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    padding: 0 2%;
+    width: 90%;
+}
+.top img {
+    margin: 5px auto;
+    padding: 0;
+    width: 100%;
+}
+.top p {
+    margin: 10px 0;
+}
+.syonin {
+    background: none repeat scroll 0 0 #fc0808;
+    border: 1px solid #f5ff02;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 22px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    width: 80%;
+}
+.modoru {
+    background: none repeat scroll 0 0 #37b63c;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 20px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    width: 80%;
+}
+footer {
+    background: none repeat scroll 0 0 #fde2ff;
+    padding: 10px;
+    text-align: center;
+}
+.address {
+    width: 100%;
+}
+
+
+.modoru1 {
+  display: block;
+  text-decoration: none;
+}

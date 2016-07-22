@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************************************/
+/*		common css
+/**************************************/
+*{
+	margin:0;
+	padding:0;
+}
+/**************************************/
+/*		style css
+/**************************************/
+.maintenance{}
+.maintenance #container{margin:0;border:solid 3px #FF1493;}
+.maintenance #container .content_inner .maintenance_ttl{-webkit-margin-before: 0;-webkit-margin-after: 10;-webkit-margin-start: 0px;-webkit-margin-end: 0px;text-align:center;background-color:#FF1493;}
+.maintenance #container .content_inner .maintenance_ttl img{width:100%;}
+.maintenance #container .content_inner .setting{width:50%;margin:10% auto 10px;}
+.maintenance #container .content_inner h1{font-size:1.3rem;margin-bottom:10px;}
+.maintenance #container .content_inner .text{margin-bottom:20px;line-height:1.5;font-size:1rem;}
+.maintenance #container .content_inner .text p{margin-bottom:10px;}
+.maintenance #container .content_inner .maintenance-content{text-align:center;}
+.maintenance #container .content_inner .maintenance-time{background-color:#E9E9E9;width:90%;margin:0 auto 20px;padding:2% 0;text-align:left;box-sizing:border-box;text-align:center;}
+.maintenance #container .content_inner .maintenance-time ul{font-size:1rem;}
+.maintenance #container .content_inner .maintenance-time p{font-size:0.7rem;padding-bottom:2%;}

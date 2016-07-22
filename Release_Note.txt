@@ -1,0 +1,22 @@
+[2014/12/19 12:25 Tran]
+- Add travel expense payment campaign feature
+- Add customized page for 404 error
+
+[2014/12/05 14:17 Tran]
+- Add owner's email, url to owner's signature when repling message
+- Fix bug: can not send notification mail to owner's mobile email
+- Add notification mail setting when registering new owner
+
+[2014/12/02 10:38 Tran]
+- Fix bug: owner's scout history page does not display properly scout_pr_text(スカウト自由文)
+- Fix bug: penalty time for not paying employment money is wrong (7 hours instead of 7 days in batch file)
+- Fix bug: log of happy money payment is not correct
+
+[2014/11/26 15:54 Jeffrey]
+- Remove name, birthday and nick_name in registration
+- Add recommend_profile_reg view
+- Remove waist, hip, bust validation in profile change
+- Hide name and birthday in profile change
+
+[2014/11/26 11:00 Tran]
+- Add release note

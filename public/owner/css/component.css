@@ -1,0 +1,127 @@
+/*----------------------------------------------*/
+/* owner inbox
+/*----------------------------------------------*/
+.section--owner_inbox ul {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.section--owner_inbox ul li {
+    border-top: 2px solid #fff;
+    cursor: pointer; 
+    height: 110px;
+    list-style: outside none none;
+    padding: 10px;
+}
+
+.section--owner_inbox ul .user-image {
+    background: #f2f2f2 none repeat scroll 0 0;
+    padding: 10px; 
+    border-radius: 4px;
+}
+
+.section--owner_inbox ul .user_info {
+    width: 650px;
+}
+
+.section--owner_inbox ul .user_info .user_title {      
+    padding: 5px; 
+    margin-top: -8px; 
+    border-radius: 3px;
+}
+
+.section--owner_inbox ul .inbox_is_read .user_info .user_title {
+    background: #d1f0f0; 
+}
+
+.section--owner_inbox ul .inbox_not_read .user_info .user_title {
+    background: #ffe0e0; 
+}
+
+.message_history_wrapper {
+    max-height: 600px;
+    background: #d1d9e4;
+    overflow-y: scroll;
+}
+
+.message_history_wrapper ul {
+    margin: 0px;
+    padding: 10px;
+}
+
+.message_history_wrapper ul li {
+    display: block;
+    list-style: outside none none;
+    margin: 0 25px 0 0;
+    position: relative;   
+}
+
+.message_history_wrapper ul li div {
+    border-radius: 10px;
+    display: block;
+    margin: 5px;
+    width: 450px;
+    padding: 15px
+}
+
+.message_history_wrapper ul li.user, .message_history_wrapper ul li.user div {
+    float: left;
+}
+
+.message_history_wrapper ul li.owner, .message_history_wrapper ul li.owner div {
+    float: right;
+}
+
+.message_history_wrapper ul li.user span.created_date {
+    bottom: 10px;
+    position: absolute;
+    right: -70px;
+}
+
+.message_history_wrapper ul li.owner span.created_date {
+    bottom: 10px;
+    position: absolute;
+    left: -70px;
+}
+
+.message_history_wrapper ul li.user img.user-image {
+    border-radius: 30px;
+    height: 50px;
+    margin-right: 25px;
+    width: 50px;
+}
+
+.message_history_wrapper ul li.user div {
+    background: #fff none repeat scroll 0 0;   
+}
+
+.message_history_wrapper ul li.owner div {
+    background: #8dd332 none repeat scroll 0 0;  
+}
+
+.message_history_wrapper .msg-container-ext-green {
+    position: absolute;
+    right: -14px;
+    top: 15px;
+}
+
+.message_history_wrapper .msg-container-ext-white {
+    left: 60px;
+    position: absolute;
+    top: 15px;  
+}
+
+
+.visiting_benifits {
+    margin: 0px;
+    padding: 0px;
+}
+
+.visiting_benifits table {
+  margin: 0 auto;
+}
+
+.visiting_benifits table td {
+  border: 2px solid #fff;
+  background: none;
+}

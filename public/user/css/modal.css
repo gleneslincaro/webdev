@@ -1,0 +1,83 @@
+.modal {
+	display:none;
+}
+.modal-body {
+	position: fixed;
+	z-index: 1000;
+	background: #fed1da;
+	width: 649px;
+	left: 50%;
+	top: 50%;
+	height: 494px;
+	border: 1px solid #ff4795;
+}
+.modal-bk {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:999;
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.60;
+}
+.modal-content {
+	width: 96%;
+	height: 96%;
+	background: #fff;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+.modal-content img {
+	position: absolute;
+	left: 12%;
+	top: 7%;	
+}
+.text {
+	position: absolute;
+	left: 8%;
+	top: 40%;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	color: #656565;
+	line-height: 2;
+}
+.choose {
+	position: absolute;
+	left: 4%;
+	top: 70%;
+	width: 100%;
+}
+.choose p {
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+	text-align: center;
+	margin: 0  45px;	
+}
+.choose p a {
+	background: #ff4594;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	padding: 10px 0 0 0;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	width: 200px;
+	height: 80px;
+	text-align: center;	
+}
+.choose p a:hover {
+	background: #91355F;
+}
+.choose span {
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+}

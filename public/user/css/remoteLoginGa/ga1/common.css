@@ -1,0 +1,77 @@
+table{
+  height:25px
+  color:#fff;
+}
+
+a{
+  text-decoration:none;
+}
+
+.main{
+  margin:0 auto;;
+}
+
+.get{
+  text-decoration:none;
+  height:20px;
+  background:red;
+  margin-bottom:20px;
+  padding:5px;
+  width:80%;
+  margin:30px auto;
+}
+
+.get span{
+  display:block;
+  text-align:center;
+  font-size:13px;
+  font-weight:bold;
+  color:#fff;    
+}
+
+.modoru{
+  text-decoration:none;
+  height:20px;
+  background:green;
+  margin-bottom:20px;
+  padding:5px;
+  width:80%;
+  margin:30px auto;
+}
+
+.modoru span{
+  display:block;
+  text-align:center;
+  font-size:13px;
+  font-weight:bold;
+  color:#fff;    
+}
+
+.get1, .modoru1 {
+  cursor: pointer;
+}
+
+.get1 {
+  border: 0 none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  height: 30px;
+  margin-bottom: 1px;
+  display: block;
+}
+
+.get2 {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+
+

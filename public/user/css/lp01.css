@@ -1,0 +1,154 @@
+@charset "utf-8";
+body {
+	-webkit-text-size-adjust: 100%;
+	min-width: 1000px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Lucida Grande", "Hiragino Kaku Gothic Pro", "メイリオ", Verdana, "ＭＳ Ｐゴシック", sans-serif;
+}
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+/* 共通 */
+.contents-wrap {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.contents-img-wrap {
+	/*text-align: center;*/
+	position: relative;
+}
+.reg {
+	/*position: absolute;
+	left: 50%;
+	margin: 0 0 0 -205px;*/
+}
+.contents-img {
+	margin: 40px 0 0 0;
+}
+
+/* contents1 */
+.lp-wrap1 {
+	background: url(/public/user/image/lp/01/main_bg.png);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	position:relative;
+}
+
+header {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+.logo-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 254px;
+}
+.logo-box img {
+	width: 100%;
+	height: auto;
+}
+.header-text {
+	display: inline-block;
+	/*width: 694px;*/
+	margin: 0 0 0 44px;
+}
+.header-text h2 {
+	font-size: 2.6em;
+	font-weight: bold;
+	background:url(/public/user/image/lp/01/touka.png);
+}
+.header-text h2 span {
+	font-size: 0.7em;
+	font-weight: normal;
+
+}
+.no-view {
+	text-align: right;
+	display: block;
+	font-size: 0.8em;
+	margin: 5px 0 0 0;
+}
+
+.woman {
+	background: url(/public/user/image/lp/01/woman.png) no-repeat bottom center;
+	background-size: contain;
+	padding: 60px 0;
+}
+.member-img {
+	margin: 275px 0 100px;
+}
+
+.reg-img1 {
+	position: absolute;
+	top: 495px;
+	left: 50%;
+	margin: 0 0 0 -205px;
+}
+
+/* contents2 */
+.lp-wrap2 {
+	background: url(/public/user/image/lp/01/con_bg.png);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+.reg-img2 {
+	position: absolute;
+	top: 615px;
+	left: 50%;
+	margin: 0 0 0 -205px;
+}
+.reg-img3 {
+	position: absolute;
+	top: 565px;
+	left: 50%;
+	margin: 0 0 0 -205px;
+}
+.contents2 .contents-img-wrap:last-child .contents-img {
+	margin-bottom: 40px;
+}
+
+/* contents3 */
+.lp-wrap3 {
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+.contents3 .contents-img {
+	margin: 0;	
+}
+.reg-img4 {
+	position: absolute;
+	top: 720px;
+	left: 50%;
+	margin: 0 0 0 -205px;
+}
+
+/* footer */
+footer {
+	background: #2d2d2d;
+	color: #ffffff;
+	text-align: center;
+}
+.footer-link ul {
+	padding: 26px 0;
+}
+.footer-link li {
+	display: inline-block;
+	border-right: 2px solid #ffffff;
+	padding: 0 13px;
+}
+.footer-link li:last-child {
+	border-right: none;
+}
+.footer-link a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-link a:hover {
+	color: #cccccc;
+}
+.copyright {
+	padding: 15px;
+	background: #444444;
+}

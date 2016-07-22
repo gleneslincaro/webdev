@@ -1,0 +1,36 @@
+RewriteEngine on
+# Allow CORS
+Header add Access-Control-Allow-Origin 'http://www.joyspe.com'
+
+# Change non-www to wwww (http://joyspe.com => http://www.joyspe.com)
+RewriteCond %{HTTP_HOST} ^joyspe.com [NC]
+RewriteRule ^(.*)$ http://www.joyspe.com/$1 [L,R=301,NC]
+
+#public
+RewriteCond %{REQUEST_URI} !(.*/public/*)
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule ^(.*)$ index.php/$1
+
+# if a directory or a file exists, use it directly
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+# RewriteRule . index.php
+
+# Redirect tohoku => hokuriku
+RedirectMatch 301 ^/user/jobs/tohoku /user/jobs/hokuriku/
+RedirectMatch 301 ^/user/jobs/tohoku/(.*) /user/jobs/hokuriku/$1
+
+#ErrorDocument 403
+AddDefaultCharset none
+LanguagePriority ja en da nl et fr de el it kr no pl pt pt-br ltz ca es sv tw
+
+php_value upload_max_filesize "10M"

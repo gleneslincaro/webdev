@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://www.joyspe.com/sitemap_01.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.joyspe.com/sitemap_jobtype_treatment.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.joyspe.com/sitemap_area.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.joyspe.com/sitemap_shop.xml</loc>
+	</sitemap>
+</sitemapindex>

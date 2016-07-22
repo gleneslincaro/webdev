@@ -1,0 +1,20 @@
+.tp-display-content input,
+.tp-display-content textarea {
+  	position: relative;
+}
+
+.sticky-placeholder-wrapper > label {
+	opacity: 1 !important;
+  	color: #B6B6B6 !important;
+  	left: 0 !important;
+  	filter: none !important;
+	padding-left: 4px !important;
+}
+
+.sticky-placeholder-wrapper:after {
+	clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

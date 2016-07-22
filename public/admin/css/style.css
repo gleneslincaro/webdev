@@ -1,0 +1,484 @@
+﻿/*
+    Document   : style
+    Created on : Jul 4, 2013, 10:22:52 AM
+    Author     : nmngoc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root {
+    display: block;
+}
+
+
+body,td,th {font-family:"ＭＳ Ｐゴシック", "Osaka", "ヒラギノ角ゴ Pro W3";font-size:14px;}
+body{
+
+}
+#main{
+    width: 100%;
+    float: left;
+    height:900px;
+}
+#leftmenu{
+    width: 23%;
+    float: left;
+    height: 900px;
+    resize: horizontal;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#content{
+     width: 70%;
+     float: left;
+     position: relative;
+     margin-left: 30px;
+     margin-bottom: 30px;
+}
+#note{
+    font-size: 18px;
+    color:red;
+}
+.validation{
+    font-size: 18px;
+    color:red;
+}
+.hide-error {
+    display: none;
+}
+#content{
+    height: 900px;
+}
+table.template1 {
+        border-collapse: collapse;
+        border:1px solid #000000;
+        background-color:#FFFFFF;
+        color:#000000;
+        text-align:left;
+        width: 102%;
+}
+table.template1 th {
+        border:1px solid #000000;
+        background-color:#808080;
+        color:#FFFFFF;
+        text-align:center;
+}
+th.email {
+        width: 30%;
+        border:1px solid #000000;
+        background-color:#808080;
+        color:#FFFFFF;
+        text-align:center;
+}
+
+table.template1 td {
+        border:1px solid #000000;
+}
+
+.photo_box{
+	width:500px;
+	padding-top:10px;
+}
+
+.photo{
+	width:150px;
+    /*background:#000000;*/
+	float:left;
+}
+#aspan{
+    display: block;
+    width: 90px;
+    position: relative;
+
+}
+#tblshow{
+    width: 60%;
+
+}
+.tblmail{
+    width :70%;
+    border-collapse: collapse;
+    border:1px solid #000000;
+    background-color:#FFFFFF;
+    color:#000000;
+    text-align:left;
+}
+table.tblmail td {
+    border:1px solid #000000;
+    width:120px;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.scolum{
+    display: block;
+    width: 130px;
+
+}
+input{
+    padding-left:6px;
+     padding-right:6px;
+}
+
+#csv, #scoutMailQtySendPerDay {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bld { font-weight: bold; }
+.mb20 { margin-bottom: 20px; }
+.mr30 { margin-right: 30px; }
+.p20 { padding: 20px; } 
+
+
+
+#request-authentication {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+}
+
+#request-authentication table {
+  border-collapse: collapse;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#request-authentication table th {
+  border: 1px solid #000000;
+  background-color: #808080;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#request-authentication table td {
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.pagination-user-from-site1or2 {
+  margin: 15px auto 0px ;
+  padding: 0px;
+  text-align: center;
+}
+
+
+
+a.btn {
+  background: -moz-linear-gradient(center top , #fff, #ccc) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-color: gray;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 auto 10px;
+  padding: 4px 10px;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none
+}
+
+/* message bonus list */
+.msg_bonus_list{
+  padding-bottom: 30px;
+}
+.msg_bonus_list table{
+  border: 1px solid;
+  width: 900px;
+}
+.msg_bonus_list table tr td{
+  border-right:1px solid #DDDDDD;
+  border-top:1px solid;
+}
+.msg_bonus_list table tr th{
+  background-color: #bdbdbd;
+}
+.msg_bonus_list table tr th.col_id, .msg_bonus_list table tr th.col_owner_id{
+  width: 75px;
+}
+.msg_bonus_list table tr th.col_edit {
+	width: 57px;
+}
+.msg_bonus_list table tr th.col_date, .msg_bonus_list table tr th.col_storename{
+  width: 135px;
+}
+.msg_bonus_list table tr th.col_content{
+  width: 350px;
+}
+.msg_bonus_list table tr th.col_decline{
+  width: 100px;
+}
+.msg_bonus_list table tr dl{
+  padding: 0px 10px;
+}
+.msg_bonus_list table tr dl dt{
+  text-align: left;
+  border-bottom: double 3px gray;
+  margin-bottom: 10px;
+  background: #DDDDFF;
+}
+.msg_bonus_list table tr dl dd{
+  text-align: left;
+  margin: 0;
+}
+
+.t-left { text-align: left; }
+.first_message {
+  background: none repeat scroll 0 0 yellow;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+/* 面接交通費支援キャンペーン */
+.request-filter-form {
+  margin: 30px 0px;
+}
+.request-filter-form .filter-select {
+  margin-right: 30px;
+}
+.expense-request-list, .makia-login-bonus-list, .mcra-list {
+  margin: 50px 10px 50px 30px;
+}
+.expense-request-list table, .makia-login-bonus-list table, .mcra-list table {
+  border: 1px solid;
+}
+.expense-request-list table tr.wait-for-approval-req {
+  background-color: yellow;
+}
+.expense-request-list table tr td, .makia-login-bonus-list table tr td, .mcra-list table tr td {
+    border-right:1px solid #DDDDDD;
+    border-top:1px solid;
+}
+.expense-request-list table tr th, .makia-login-bonus-list table tr th, .mcra-list table tr th {
+    background-color: #bdbdbd;
+}
+
+.expense-request-list table tr th.col-id, .makia-login-bonus-list table tr th.condition-id, .mcra-list table tr th.month  {
+    width: 60px;
+}
+.expense-request-list table tr th.col-property {
+    width: 100px;
+}
+.expense-request-list table tr th.col-user-name {
+    width: 100px;
+}
+.expense-request-list table tr th.col-owner-name {
+    width: 100px;
+}
+.expense-request-list table tr th.col-owner-approve {
+    width: 100px;
+}
+.expense-request-list table tr th.col-req-date {
+    width: 150px;
+}
+.expense-request-list table tr th.col-req-approve, .makia-login-bonus-list table tr th.num-of-days,
+.makia-login-bonus-list table tr th.bonus-points, .mcra-list table tr th.travel-expense-total-paid-money, .mcra-list table tr th.trial-work-total-paid-money {
+    width: 150px;
+}
+
+.expense-request-list table tr td, .makia-login-bonus-list table tr th, .makia-login-bonus-list table tr td,
+.mcra-list table tr th, .mcra-list table tr td {
+    padding: 10px 10px;
+}
+.expense-request-list table tr td .approval {
+    width: 100px;
+    margin-bottom: 8px;
+}
+
+/* 月次配信*/
+#btnMonthlySend{
+cursor: pointer;  
+}
+
+.w250 { width: 250px; }
+.w350 { width: 350px; }
+.disable-mail-magazine {
+  background-color: #EBEBEB;
+}
+
+.hidden_exp {
+  background-color: #E6E6E6;
+}
+
+#main #content #bbsBonusContent {
+  width:55%;
+  margin: 0 auto;
+}
+
+#main #content #bbsBonusContent .button_wrap {
+  margin: 0 auto;
+  width: 120px;
+  min-width: 50px;
+  padding:20px;
+}
+#main #content #bbsBonusContent table, #main #content #bbsBonusContent h2 {
+  width:100%;
+  text-align:center;
+}
+
+#main #content #bbsBonusContent table {
+  margin-top:40px;
+}
+
+#main #content #bbsBonusContent table th {
+  padding:10px;
+  font-size:18px;
+}
+
+#main #content #bbsBonusContent table td {
+  padding:10px;
+  font-size:16px;
+}
+
+#main #content #bbsBonusContent input {
+  height: 30px;
+  width: 120px;
+  font-size: 16px;
+}
+#main #content #bbsBonusContent input[type="submit"] {
+  height: 40px;
+  font-size: 18px;
+}
+
+/* ----- thread point detail ---------- */
+
+.align-word {
+  text-align: left !important;
+}
+.non-border {
+  border: none !important;
+}
+#bbsThreadContentDetail {
+  padding: 0 0 20px 0;
+}
+#bbsThreadContentDetail h2{
+  text-align: center;
+}
+#bbsThreadContentDetail,
+#table-detail, 
+#table-comment-detail, 
+#table-replay-comment {
+  width: 100%;
+  margin: 0 auto;
+
+}
+#bbsThreadContentDetail table th {
+  background: #C9C9C9;
+}
+#bbsThreadContentDetail table th,td {
+  padding: 5px;
+  word-break: break-all;
+}
+.header-title{
+  background: #000 !important;
+  color:#fff;
+}
+
+#table-detail td, 
+#table-comment-detail tr:nth-child(3) td,
+#table-replay-detail td,
+#table-replay-comment td{
+  text-align: center;
+  margin: 10px;
+}
+#action-button button{
+  width: 140px;
+}
+#action-button p{
+  margin: 5px;
+}
+#table-comment-detail {
+  margin: 30px 0 0 0;
+  table-layout: fixed;
+}
+.container-replay td,
+.container-replay th{
+  border:1px solid;
+}
+#table-replay-comment {
+  table-layout: fixed;
+}
+.container-replay .align-word{
+  padding: 10px;
+}
+.button-wrap {
+  margin: 10px 0;
+}
+.button-wrap button::after {
+  content: '\25bc';
+}
+.more-wrap button {
+  display:block;
+  margin: 20px auto;
+}
+/* -------- Thread list  --------- */
+#bbsThreadContent h2{
+  text-align: center;
+}
+#bbsThreadContent, #table-action, #table-result {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#bbsThreadContent table th {
+  background: #C9C9C9;
+}
+#bbsThreadContent table th,td {
+  padding: 5px;
+}
+
+#table-result {
+  margin: 30px 0 30px 0;
+}
+
+#table-result td{
+  text-align: center;
+}
+
+.button_wrap {
+  margin: 15px 0 0 0;
+}
+.button_wrap input{
+  margin: 0 auto;
+    display: block;
+
+}
+.pagination-wrap ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 6px 0px;
+    background: #E4E0E0;
+    margin-right: 1px;
+}
+.pagination-wrap ul li a {
+  text-decoration:none;
+  color: #292929;
+  padding: 5px 10px;
+}
+.pagination-wrap ul li.active {
+  background: #666A6D;
+}
+.pagination-wrap ul li.active a {
+    color:#ffffff;
+}
+
+#bbsBonusPointSetting input[type=number]::-webkit-inner-spin-button, 
+#bbsBonusPointSetting input[type=number]::-webkit-outer-spin-button
+ { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+#bbsBonusPointSetting input[type=number] {
+    -moz-appearance:textfield;
+}

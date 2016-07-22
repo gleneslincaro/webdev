@@ -1,0 +1,24 @@
+.header {
+    border-bottom: 2px solid #3765a1;
+  background-color: #5d9cec;
+}
+.header .breadcrumb {
+    background: #3765a1 none repeat scroll 0 0;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+}
+.page_wrap {
+    border-top: 2px solid #3765a1;
+    font-size: 1.4rem;
+    min-width: 1220px;
+    padding: 0;
+    width: 100%;
+}
+.ttl_style_1{
+    border-bottom: 2px solid #5d9cec;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 auto 20px;
+    padding: 0 0 10px;
+}

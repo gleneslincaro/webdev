@@ -1,0 +1,41 @@
+#http://www.codeofaninja.com/2012/08/cron-job-example-with-putty.html
+#reset number of scout mails that one's owner can send everyday
+0 5 * * * curl https://www.joyspe.com/owner/top/updateOwnerScoutMailQtyPerDay
+* * * * * /usr/bin/php /var/www/arche_html/joyspe/web/send_mail_magazine.php
+* * * * * /usr/bin/php /var/www/arche_html/joyspe/web/send_mail_penalty.php
+
+#run every 20 minutes from 6~10 AM
+*/20 6,7,8,9,10 * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller auto_send
+
+
+#run every 5 am to reset remaining updates
+0 5 * * * curl https://www.joyspe.com/owner/top/resetSiteRankRemainingUpdates
+
+#run every hour to send booked daily magazine mail
+0 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller auto_send_magazine
+
+#run every 6 pm to send owner notification unread message member and none member user
+0 18 * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller none_openmail_nonemember
+
+0,30 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller get_urgent_recruit
+0,30 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller get_column
+
+0 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "hokkaido"
+1 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "kanto"
+2 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "kitakanto"
+3 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "hokuriku"
+4 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "tokai"
+5 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "kansai"
+6 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "tokai"
+7 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "shikoku"
+8 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller town_owner_count "kyushu"
+
+10 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "hokkaido"
+11 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "kanto"
+12 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "kitakanto"
+13 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "hokkaido"
+14 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "hokuriku"
+15 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "tokai"
+16 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "kansai"
+17 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "shikoku"
+18 * * * * cd /var/www/arche_html/joyspe/web/ && php index.php user/cli_controller city_owner_count "kyushu"

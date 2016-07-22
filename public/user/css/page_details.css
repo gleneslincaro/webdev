@@ -1,0 +1,183 @@
+@charset "utf-8";
+/*------------------------------------------------------------*/
+/* page index style
+/*------------------------------------------------------------*/
+/*----------------------------------------------*/
+/* section top
+/*----------------------------------------------*/
+.section--top .desc {
+	font-size:12px;
+	margin-bottom: 10px;
+}
+.section--top .desc em {
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #f86079;
+}
+/*----------------------------------------------*/
+/* corporate tops
+/*----------------------------------------------*/
+.section--tos {
+}
+.section--tos .box_inner > p {
+	margin-bottom: 4% !important;
+}
+.section--tos .box_inner p {
+	line-height: 1.5;
+	margin-bottom: 2%;
+}
+
+/*------------------------------------------------------------*/
+/* page 都道府県>都市>エリア style
+/*------------------------------------------------------------*/
+.page_wrap--search .ttl_2 {
+	line-height: 30px;
+}
+
+
+.post_period {
+	border-top: solid 1px #CCC;
+	padding-top: 10px;
+}
+.post_period span {
+	color: #ff0d59;
+	font-weight: bold;
+}
+
+.open_close {
+	float: right;
+	border-radius: 5px;
+	background-color: #FFF;
+	color: #f86079;
+	width: 30px;
+	text-align: center;
+}
+/*------------------------------------------------------------*/
+/* page dictionary style
+/*------------------------------------------------------------*/
+/*----------------------------------------------*/
+/* page dictionary index
+/*----------------------------------------------*/
+.section--dictionary_list ul{
+	width:100%;
+	margin:0 auto;
+	padding-left:5px;
+	line-height:1.5;
+	text-align:left;
+}
+.section--dictionary_list ul li{
+	display:inline-block;
+	background-color:#FFF;
+	padding:10px 15px;
+	border-radius:5px;
+	margin:4px 2px 4px 0;
+}
+.section--dictionary_list dl {
+}
+.section--dictionary_list dl dt {
+	line-height: 3;
+	padding-left: 10px;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.section--dictionary_list dl dd {
+	line-height: 2;
+	padding: 10px;
+	background: #fff;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.section--dictionary_list dl dt:after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	height: 17px;
+	margin: auto;
+	display: inline-block;
+	content: '\f138';
+	font-family: FontAwesome;
+	font-size: 17px;
+	font-size: 1.7rem;
+	font-weight: normal;
+	color: #555;
+	line-height: 1;
+	vertical-align: middle;
+	transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+.section--dictionary_list dl dt.slide_close:after {
+	transform: rotate(-90deg) !important;
+	-moz-transform: rotate(-90deg) !important;
+	-webkit-transform: rotate(-90deg) !important;
+}
+.section--dictionary_list ul li a {
+	display: block;
+	text-decoration: none;
+}
+/*------------------------------------------------------------*/
+/* page message_detail_wrap style
+/*------------------------------------------------------------*/
+.message_detail_top {
+	padding: 0 5px 10px;
+}
+.message_detail_wrap {
+	border-radius: 5px;
+	padding: 5px;
+}
+.message_detail_wrap .title {
+	color: #f86079;
+	font-weight: bold;
+	padding: 4px 0;
+	border-bottom: solid 1px #CCC;
+}
+.message_detail_top .datetime span {
+	color: #f86079;
+}
+.message_detail_top .from span {
+	color: #f86079;
+}
+.message_detail_wrap .message_detail_body {
+	letter-spacing: 1px;
+	padding: 10px 0 20px 0;
+	word-wrap: break-word;
+}
+/*------------------------------------------------------------*/
+/* page jobs style
+/*------------------------------------------------------------*/
+.page_wrap--area .pagebody{
+	background: #ededed;
+}
+
+.page_wrap--prefectures .pagebody{
+	background: #ededed;
+}
+.page_wrap--city .pagebody{
+	background: #ededed;
+}
+.page_wrap--city .more {
+  border-radius: 5px;
+  border: solid 3px #999;
+  width: 50%;
+  min-width: 80px;
+  padding: 0.8rem;
+  margin: 10px auto 15px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.page_wrap--info_list .pagebody{
+	background: #ededed;
+}
+.page_wrap--dictionary .pagebody{
+	background: #ededed;
+}
+.page_wrap--mission_conf .pagebody{
+	background: #ededed;
+}
+/*------------------------------------------------------------*/
+/* pag
+/*------------------------------------------------------------*/

@@ -1,0 +1,205 @@
+@charset "utf-8";
+body {
+	-webkit-text-size-adjust: 100%;
+	min-width: 1000px;
+	font-size:30px;
+	font-family: "ヒラギノ角ゴ Pro W3", "Lucida Grande", "Hiragino Kaku Gothic Pro", "メイリオ", Verdana, "ＭＳ Ｐゴシック", sans-serif;
+}
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+/* 共通 */
+.contents-wrap {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.contents-img-wrap {
+	/*text-align: center;*/
+	position: relative;
+}
+.reg {
+	/*position: absolute;
+	left: 50%;
+	margin: 0 0 0 -205px;*/
+}
+.contents-img {
+	margin: 40px 0 0 0;
+}
+
+/* contents1 */
+.lp-wrap1 {
+	background: url("../image/lp/01/main_bg.png");
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	position:relative;
+}
+
+header {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+.logo-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 254px;
+}
+.logo-box img {
+	width: 100%;
+	height: auto;
+}
+.header-text {
+	display: inline-block;
+	/*width: 694px;*/
+	margin: 0 0 0 44px;
+}
+.header-text h2 {
+	font-size: 2.6em;
+	font-weight: bold;
+	background:url(../image/lp/01/touka.png);
+}
+.header-text h2 span {
+	font-size: 0.7em;
+	font-weight: normal;
+
+}
+.no-view {
+	text-align: right;
+	display: block;
+	font-size: 0.8em;
+	margin: 5px 0 0 0;
+}
+
+.lp-wrap1 .contents-img-wrap figure{
+	margin-top:-105px;
+}
+
+.woman {
+	width:100%;
+	display:block;
+}
+.member-img {
+	position: absolute;
+	bottom: 5%;
+	left: 3%;
+}
+
+.reg-img1 {
+	position: absolute;
+	top: 600px;
+	left: 91%;
+	margin: 0 0 0 -205px;
+}
+
+/* contents2 */
+.lp-wrap2 {
+	background: url("../image/lp/01/con_bg.png");
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
+}
+.reg-img3 {
+	position: absolute;
+	top: 565px;
+	left: 50%;
+	margin: 0 0 0 -205px;
+}
+.contents2 .contents-img-wrap:last-child .contents-img {
+	margin-bottom: 40px;
+}
+
+/* contents3 */
+.contents3.contents-wrap {
+  padding-bottom: 50px;
+}
+.contents3 .contents-box{
+ background: #fff;
+ border: 1px solid #7E5B01;
+ padding: 30px;
+ box-sizing: border-box;
+}
+.contents3 .title_about{
+ 	text-align: center;
+ }
+.contents3 .faq dl{
+	max-height:100%;
+}
+.contents3 .qestion{
+	font-weight: bold;
+	margin-bottom:10px;
+	padding-left:30px;
+	padding-top:30px;
+}
+.contents3 .answer{
+	color: #FF4981;
+	font-weight: bold;	
+	margin-bottom:20px;
+}
+.contents3 .answer_text:last-child{
+	border-bottom: none;
+}
+.contents3 .answer_text{
+	color: #7E5B01;
+	padding: 0 30px 30px;
+	border-bottom: 1px solid #faf9f5;
+}
+.contents3 .answer_indent{
+	padding-left:1em;
+	text-indent:-1.1em;
+}
+/* kiyaku*/
+.contents3 .kiyaku_wrap{
+	max-height:100%;
+}
+.contents3 .kiyaku_h{
+	color: #7E5B01;
+	font-weight: bold;
+}
+.contents3 .kiyaku{
+	height: 300px;
+	padding:0 30px;
+	margin:0 auto;
+	overflow: auto;
+	border-radius: 5px;
+	line-height: 1.7;
+	color: #666;
+	border: 2px solid #7E5B01;
+}
+.contents3 .kiyaku p{
+	max-height:100%;
+}
+.contents3 .buttun_area {
+	margin:25px 0 35px 0;
+	text-align: center;
+}
+
+
+/* footer */
+footer {
+	background: #2d2d2d;
+	color: #ffffff;
+	text-align: center;
+}
+.footer-link ul {
+	padding: 26px 0;
+}
+.footer-link li {
+	display: inline-block;
+	border-right: 2px solid #ffffff;
+	padding: 0 13px;
+}
+.footer-link li:last-child {
+	border-right: none;
+}
+.footer-link a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-link a:hover {
+	color: #cccccc;
+}
+.copyright {
+	padding: 15px;
+	background: #444444;
+}
